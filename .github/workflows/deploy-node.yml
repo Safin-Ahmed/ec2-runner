@@ -9,4 +9,4 @@ jobs:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v4
-    - run: sudo docker build -t hello .
+    - run: make build
