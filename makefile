@@ -4,5 +4,5 @@ build:
 	@ sudo docker build -t ${image} .
 
 run:
-	@ sudo docker run ${image}
+	@ sudo docker run -d ${image}
 
