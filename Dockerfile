@@ -20,4 +20,4 @@ RUN echo "PORT=3000" > .env
 EXPOSE 3000
 
 # Define the command to run the app
-CMD ["node", "app.js"]
+CMD ["node", "index.js"]
